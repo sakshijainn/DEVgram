@@ -6,6 +6,12 @@ const app = express();
 //connect DataBase
 connectDB();
 
+//Define Routes
+app.use("/api/users", require("./routes/api/users"));
+app.use("/api/profile", require("./routes/api/profile"));
+app.use("/api/posts", require("./routes/api/posts"));
+app.use("/api/auth", require("./routes/api/auth"));
+
 //single end point to test it out ( basic express set-up-test)
 app.get("/", (req, res) => res.send("API running"));
 
