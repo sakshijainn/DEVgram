@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://sakshi:sakshi@devgram.cp1i4v9.mongodb.net/?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://sakshi:sakshi@devgram.cp1i4v9.mongodb.net/?retryWrites=true&w=majority",
+    "jwtToken" : "mysecrettoken"
 }
