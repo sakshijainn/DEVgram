@@ -8,7 +8,8 @@ connectDB();
 
 //Init Middleware
 //app.use(bodyParser.json())
-app.use(express.json({ extended: false }));
+app.use(express.json({ extended: false, urlencoded: true }));
+
 //Define Routes
 app.use("/api/users", require("./routes/api/users"));
 app.use("/api/profile", require("./routes/api/profile"));
