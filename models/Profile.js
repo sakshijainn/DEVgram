@@ -23,14 +23,14 @@ const profileSchema = new mongoose.Schema({
   bio: {
     type: String,
   },
-  githubUsername: {
+  githubusername: {
     type: String,
     required: true,
   },
   interest: {
     type: [String],
   },
-  digitalAvatar: {
+  digitalavatar: {
     type: String,
   },
   experience: [
